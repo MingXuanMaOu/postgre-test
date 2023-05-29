@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: dataset
+    password: Landroid2020!@#
+    url: jdbc:postgresql://39.107.107.23:5432/lanzhuo?failOverReadOnly=false&autoReconnect=true&useUnicode=true&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=truestringtype=unspecified
+#  datasource:
+#    #    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.zaxxer.hikari.HikariDataSource
+#    username: shaobing
+#    #    username: dataset
+#    password: Landroid2020!@#
+#    #    url: jdbc:p6spy:mysql://39.106.74.121:3306/lanzhuo2?failOverReadOnly=false&autoReconnect=true&useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true&serverTimezone=Asia/Shanghai
+#    url: jdbc:mysql://39.107.107.23:3306/shaobing?failOverReadOnly=false&autoReconnect=true&useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true&serverTimezone=Asia/Shanghai
